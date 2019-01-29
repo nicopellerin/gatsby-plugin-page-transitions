@@ -29,6 +29,6 @@ var history = (0, _createBrowserHistory2.default)({ getUserConfirmation: getUser
 history.block(function (location) {
   return location.pathname;
 });
-exports.replaceHistory = function () {
-  return history;
-};
+// exports.replaceHistory = function () {
+//   return history;
+// };
